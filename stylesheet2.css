@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+	font-family:"MS Serif", "New York", serif;
+	border-bottom:ridge;
+	border-left:ridge;
+	border-top:ridge;
+	border-right:ridge;
+}
+
+h2 {
+	font-family:"MS Serif", "New York", serif";
+	border:ridge;
+	border-bottom-right-radius:
