@@ -81,11 +81,17 @@ img, object, embed, video {
 #christmas-foods {
 	clear: both;
 	float:left;
-	margin-right:50%;
+	position:relative;
+	left:315px;
 	width: 100%;
 	display: block;
 }
 
+body{
+	background:url(tumblr_ldy0bbTs8f1qzxkdpo1_r1_500.gif);
+	background-repeat:repeat;
+	background-size:100%;
+}
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
 @media only screen and (min-width: 481px) {
@@ -144,6 +150,10 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
+body{
+	background:url(tumblr_ldy0bbTs8f1qzxkdpo1_r1_500.gif);
+	background-repeat:repeat;
+	background-size:100%;
 }
 
 /* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */

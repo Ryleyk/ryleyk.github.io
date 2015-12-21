@@ -60,10 +60,10 @@
 	display:table;
 	text-align:center;
 	width:80%;
-	border-top:solid #939 thin;
-	margin:auto;
+	border-top:solid #939 thin;	margin:auto;
+
 	}
-	.sub-menu a {
+	.sub-menu li a {
 		display:table-cell;
 		height:40px;
 		vertical-align:middle;
