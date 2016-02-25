@@ -13,7 +13,7 @@
 
 #Genres a {
 	transition: all linear 0.15s;
-	color:#6F9;
+	color:#0FF;
 	text-decoration:none;
 }
 
@@ -31,7 +31,6 @@
 		margin:0px;
 		padding:0;
 		width:10%;
-		border-left: solid #63C;
 		text-align:center;
 		height:40px;
 		vertical-align:bottom;
@@ -40,7 +39,7 @@
 		background:#30C;
 	}*/
 	/* BOTTOM LEVEL */
-	#Genres li:hover  .sub-menu {
+	#Genres li:hover .sub-menu {
 		z-index:1;
 		opacity:1;
 	}
@@ -53,7 +52,7 @@
 		z-index:-1;
 		opacity:0;
 		transition:opacity linear 0.15s;
-		background:white;
+		background:#90F;
 		text-align:center;
 		border-top:solid #CFF thick;
 	}
@@ -70,8 +69,5 @@
 		vertical-align:middle;
 		width:100%;
 		text-align:center;
-	}
-	.sub-menu li:hover, . sub-menu . current-item a {
-		background-color:#0FF;
 	}
 	
