@@ -25,6 +25,7 @@ h2 img{
 	height:100px;
 	width:109px;
 	border:none;
+	text-align:center;
 }
 h2 ul{
 	font-family:"MS Serif", "New York", "serif";
@@ -36,4 +37,4 @@ body{
 	
 }
 	
-div 
+div{
