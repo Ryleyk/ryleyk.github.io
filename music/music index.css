@@ -46,9 +46,7 @@ img, object, embed, video {
 body { 
 background-repeat:no-repeat;
 background-size:100%;
-height:400px;
 overflow:hidden;
-
 }
 
 .w3-content w3-section{
@@ -78,7 +76,6 @@ scroll:yes;
 body {
 	height:100%;
 background-repeat:no-repeat;
-background-size:100%;
 }
 }
 
