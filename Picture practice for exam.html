@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script>
+	function display(tier){
+		switch(tier){
+			case .1:
+			document.getElementById("demo").innerHTML = "tier 1";
+			break;
+			
+			case .2:
+			document.getElementById("demo").innerHTML = "tier 2";
+			break;
+			
+			case .3:
+			document.getElementById("demo").innerHTML = "tier 3";
+			break;}
+			}
+			
+			</script>
+      <button onclick="display(.1)">
+      No List</button>
+      <button onclick="display(.2)">
+      Likes</button>
+      <button onclick="display(.3)">
+      Dislikes</button>
+     
+      <p id="demo"></p>
+
+</body>
+</html>
